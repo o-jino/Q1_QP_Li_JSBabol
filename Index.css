@@ -1,0 +1,742 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    
+
+#navbar { /*HEADER*/
+  
+    background-color: #0B2B5B;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size:  cover;
+    width: 100vw;
+    height: 10vh;
+    
+}
+
+#logo{ 
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    text-align: center;
+    
+    
+    margin-right:auto;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: auto;
+
+}
+/*The text buttons to access other pages*/
+#Hometext{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 20px;   
+    float: right;
+    color:#F4EADF;
+    font-size:large;
+    font-weight: 800;
+    border: solid #0B2B5B;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #0B2B5B;
+}
+
+#Introtext{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 20px;   
+    float: right;
+    color:#F4EADF;
+    font-size:large;
+    font-weight: 800;
+    border: solid #0B2B5B;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #0B2B5B;
+    
+
+}
+#Abouttext{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;   
+    float: right;
+    color:#F4EADF;
+    font-size:large;
+    font-weight: 800;
+    border: solid #0B2B5B;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #0B2B5B;
+    
+
+}
+#Datatext{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 20px;   
+    float: right;
+    color:#F4EADF;
+    font-size:large;
+    font-weight: 800;
+    border: solid #0B2B5B;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #0B2B5B;
+    
+}
+#Sourcestext{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 60%;
+    margin-top: 20px;   
+    float: right;
+    color:#F4EADF;
+    font-size:large;
+    font-weight: 800;
+    border: solid #0B2B5B;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #0B2B5B;
+    
+}  
+#Hometext:hover{
+    opacity: 100;
+    transition: 0.2s;
+    font-size: 20px;
+    color:#0B2B5B;
+    border: solid #F4EADF;
+    background-color: #F4EADF;
+}
+#Introtext:hover{
+    opacity: 100;
+    transition: 0.2s;
+    font-size: 20px;
+    color:#0B2B5B;
+    border: solid #F4EADF;
+    background-color: #F4EADF;
+}
+#Abouttext:hover{
+    opacity: 100;
+    transition: 0.2s;
+    font-size: 20px;
+    color:#0B2B5B;
+    border: solid #F4EADF;
+    background-color: #F4EADF;
+}
+#Datatext:hover{
+    opacity: 100;
+    transition: 0.2s;
+    font-size: 20px;
+    color:#0B2B5B;
+    border: solid #F4EADF;
+    background-color: #F4EADF;
+}
+#Sourcestext:hover{
+    opacity: 100;
+    transition: 0.2s;
+    font-size: 20px;
+    color:#0B2B5B;
+    border: solid #F4EADF;
+    background-color: #F4EADF;
+}
+
+#Homepagetext{/*This ID is to mae sure that when after you click the home page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 20px;   
+    float: right;
+    color:#0B2B5B;
+    font-size:large;
+    font-weight: 800;
+    border: solid #F4EADF;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #F4EADF;
+}
+
+#Intropagetext{/*This ID is to make sure that when after you click the Intro page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 20px;   
+    float: right;
+    color:#0B2B5B;
+    font-size:large;
+    font-weight: 800;
+    border: solid #F4EADF;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #F4EADF;
+
+}
+#Aboutpagetext{/*This ID is to make sure that when after you click the about page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;   
+    float: right;
+    color:#0B2B5B;
+    font-size:large;
+    font-weight: 800;
+    border: solid #F4EADF;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #F4EADF;
+    
+
+}
+#Datapagetext{/*This ID is to make sure that when after you click the data page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 20px;   
+    float: right;
+    color:#0B2B5B;
+    font-size:large;
+    font-weight: 800;
+    border: solid #F4EADF;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #F4EADF;
+}
+#Sourcespagetext{/*This ID is to make sure that when after you click the sources page in the Navbar the page button is highlighted with a border, different text color, and a different border color*/
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    position:absolute;
+    
+    text-align: center;
+    margin-left: 60%;
+    margin-top: 20px;   
+    float: right;
+    color:#0B2B5B;
+    font-size:large;
+    font-weight: 800;
+    border: solid #F4EADF;
+    padding: 0.5%;
+    border-radius: 30px;
+    background-color: #F4EADF;
+}  
+.banner{/*to apply a background image in the main body/content area*/
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  cover;
+    width: 100vw;
+    height: 80vh;
+}
+
+.text{
+    text-decoration: none ;
+
+    position: absolute;
+    color: #F4EADF;
+    text-align: center;
+    margin-left: 65%;
+    margin-top: 80%;  
+     
+    float: right;
+}/*main images*/
+#Home-image{
+    margin-left: 10%;
+    margin-right: 70%;
+    margin-top: 5%;
+   text-align: center;
+   padding: 5px;
+   border-radius: 70%;
+   width: 30vw;
+   height: 50vh;
+}
+#About-image{
+    margin-left: 7%;
+    margin-right: 80%;
+    margin-top: 5%;
+   text-align: center;
+   padding: 5px;
+   border-radius: 70%;
+   width: 25vw;
+   height: 45vh;
+}
+#Namebox{/*ABOUT IMAGE NAMEBOX*/  
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 70%;
+    bottom: 30%;
+    color:#FFFFFF;
+    font-size:x-large;
+    font-weight: 800;
+    border: solid #0B2B5B;
+    padding: 2%;
+    border-radius: 0px;
+    background-color: #0B2B5B;
+
+}
+/*HOME PAGE CONTENT*/  
+.Homecontent h1{
+    margin-left:  50%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    
+    position:absolute;
+    bottom: 70%;
+    left: 0px;
+    right: 0px;
+    margin-top: 20%;
+    font-size:xx-large;
+    
+}
+.Homecontent h2{
+    margin-left:  50%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    position:absolute;
+    bottom: 40%;
+    left: 0px;
+    right: 0px;
+    margin-top: 65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.Homecontent h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 48%;
+}
+
+.Homecontent a {
+
+    text-decoration: none ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50%;
+    color:#0B2B5B;
+    font-size:x-large;
+    font-weight: 800;
+    bottom: 30%;
+    border: solid #F4EADF;
+    padding: 0.5%;
+    border-radius: 10px;
+    position: absolute; 
+    background-color: #F4EADF;
+    
+}   
+/*INTRO PAGE CONTENT*/  
+#intromain{
+    margin-left:  40%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 80%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size:xx-large;
+    font-size: xx-large;
+}
+.Introcontent h1{
+    margin-left:  10%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    
+    position:absolute;
+    bottom: 70%;
+    left: 0px;
+    right: 0px;
+    margin-top: 20%;
+    font-size:xx-large;
+    
+}
+.Introcontent h2{
+    margin-left:  50%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    position:absolute;
+    bottom: 40%;
+    left: 0px;
+    right: 0px;
+    margin-top: 65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Introcontent h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 50%;
+}
+/*ABOUT PAGE CONTENT*/  
+.Aboutcontent h1{
+    margin-left:  10%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    
+    position:absolute;
+    bottom: 70%;
+    left: 0px;
+    right: 0px;
+    margin-top: 20%;
+    font-size:xx-large;
+    
+}
+.Aboutcontent h2{
+    margin-left:  10%;
+    color:  #F4EADF;
+    text-shadow: 2px 2px 2px rgba(5,5,5,0.5);
+    position:absolute;
+    bottom: 40%;
+    left: 0px;
+    right: 0px;
+    margin-top: 65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Aboutcontent h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 50%;
+}
+/*ABOUT PAGE CONTENT IDS*/  
+#Aboutmain{
+    margin-left:  43%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 80%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size:xx-large;
+    font-size: xx-large;
+}   
+
+
+#PBtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 60%;
+}
+#PB{
+    margin-left:  40%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 73%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size:x-large;
+}  
+#FAMtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 40%;
+}
+#FAM{
+    margin-left:  40%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 53%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size:x-large;
+}
+#ODtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 20%;
+} 
+#OD{
+    margin-left:  40%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 33%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size:x-large;
+}  
+
+/*INTRODUCTION PAGE CONTENT IDS*/
+#PI{
+    margin-left:  10%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 71%;
+    left: 0px;
+    right: 0px;
+    margin-top: 30%;
+    font-size:x-large;
+}  
+#PItext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 50%;  
+}
+
+#PP{
+    margin-left:  10%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 42%;
+    left: 0px;
+    right: 0px;
+    margin-top: 50%;
+    font-size:x-large;
+}  
+#PPtext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#ffffff;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 30%;
+    top: 60%;
+}
+
+/*DATA PAGE CONTENT IDS*/
+#Links{
+    margin-left:  10%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 80%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size: 35px;
+}  
+#Linkstext1 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 75%;  
+}
+#Linkstext2 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 65%;  
+}
+#Linkstext3 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 55%;  
+}
+
+
+#Graphs{
+    margin-left:  10%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 42%;
+    left: 0px;
+    right: 0px;
+    margin-top: 50%;
+    font-size:35px;
+
+}  
+#Histogram{ 
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right:auto;
+    margin-left: 200px;
+    margin-top: 480px;
+    margin-bottom: auto;
+}
+#FDT{ 
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right:auto;
+    margin-left: 70px;
+    margin-top: 480px;
+    margin-bottom: auto;
+}
+#BAWP{ 
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right:auto;
+    margin-left: 70px;
+    margin-top: 480px;
+    margin-bottom: auto;
+}
+#Bar{ 
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right:auto;
+    margin-left: 70px;
+    margin-top: 480px;
+    margin-bottom: auto;
+}
+#Pie{ 
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right:auto;
+    margin-left: 70px;
+    margin-top: 480px;
+    margin-bottom: auto;
+}
+/*SOURCES PAGE CONTENT IDS*/
+#Conclusion{
+    margin-left:  10%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 80%;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    font-size: 35px;
+}  
+#Conclusiontext{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 50%;  
+}  
+  
+#Sources{
+    margin-left:  10%;
+    color:  #F4EADF;
+    position:absolute;
+    bottom: 42%;
+    left: 0px;
+    right: 0px;
+    margin-top: 50%;
+    font-size:35px;
+}  
+#Sourcestext1 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 35%;  
+}
+#Sourcestext2 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 25%;  
+}
+#Sourcestext3 a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10% ;
+    color:#FFFFFF;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 15%;
+}
+/*FOOTER*/
+.footer{
+    background-color: #0B2B5B;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size:  cover;
+    display: inline-block;
+    
+    width: 100vw;
+    height: 10vh;
+}
+
+.footer h3{
+    
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #F4EADF;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 4%;
+    font-size: 30px;
+    
+}
+
+#link a img{
+    margin-right: 20px;
+    float: right;
+    text-align: center;
+    padding: 5px;
+    border-radius: 70%;
+    width: 3vw;
+    height: 5vh;
+}
